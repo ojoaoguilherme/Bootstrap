@@ -1,0 +1,216 @@
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+  
+}
+body {
+    background: url(../imagens/capa.png), url(../imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+
+nav.navbar-transparente {
+    background: rgba(0,0,0,0.6);
+    padding: 15px 0;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bolder;
+    transition: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #6e6e6e;
+    background: white;
+    border-radius: 5px;
+    transition: none;
+
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.76);
+    background: rgba(255, 255, 255, 0.548);
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 100px;
+    border: 1px solid oldlace;
+    text-transform: uppercase;
+    transition: 0.4s;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    
+
+
+}
+
+.btn-roxo {
+    background: rgba(51, 41, 192, 0.678);
+    border: none;
+}
+
+.btn-roxo:hover {
+    background: rgb(93, 0, 155);
+    color: white;
+    
+}
+
+.btn-branco {
+    border: 2px solid oldlace;
+    background: transparent;
+}
+
+.btn-branco:hover {
+    background: white;
+    color: rgb(41, 32, 165);
+    
+}
+
+h1 {
+    font-size: 6em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h4.centralizar {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#servicos {
+    background: white;
+}
+
+#servicos h2, h3 {
+    color: rgb(103, 54, 218);
+}
+
+#recursos h2, #recursos p {
+    color: rgb(255, 255, 255);
+}
+
+
+#recursos h3 {
+    color: #9bf0e1;
+} 
+
+.rotacao {
+    padding-left: 10px;
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+
+}
+
+footer h4 {
+    font-size: 0.8em;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: slategrey;
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .btn-custom{
+        margin: 10px;
+        font-weight: 300;
+    }
+
+    .celulares {
+        margin-top: 10px;
+        padding-top: 30px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .btn-custom{
+        margin: 10px;
+        font-weight: 400;
+    }
+
+    .celulares {
+        padding-top: 50px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 4em;
+        font-weight: 500;
+    }
+
+    .celulares {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    .celulares {
+        margin-left: 30px;
+
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    h1 {
+        font-size: 6em;
+    }
+
+    .celulares {
+        margin-left: 30px;
+
+    }
+ }
+
